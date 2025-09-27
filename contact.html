@@ -17,6 +17,35 @@
     </nav>
     <hr>
     </header>
+
+    <main>
+        <h2>Contact Form</h2>
+        <form>
+            <div>
+                <label for = "name">Name: </label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div>
+                <label for = "email">Email: </label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div>
+                <label for = "reason">Reason for Contact: </label>
+                <select id="reason" name="reason" required>
+                    <option value="">Choose an Option</option>
+                    <option value="hi">Saying Hi</option>
+                    <option value="contractor">Looking for a contractor</option>
+                    <option value="interview">Interview Oppurtunity</option>
+                </select>
+            </div>
+
+            <div>
+            <button type="submit">Submit</button>
+            </div>
+        </form>
+    </main>
     
 </body>
 </html>
