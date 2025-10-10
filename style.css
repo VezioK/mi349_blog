@@ -1,0 +1,36 @@
+body{
+    background-color:#F5E8C7
+}
+
+.wholeblog{
+    padding-top:5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom:10px;
+}
+
+.blogtitle {
+    color:#643310;
+    margin-bottom:5px;
+}
+
+.bloginfo{
+    color:#643310;
+    margin-top:5px;
+    margin-bottom:20px;
+}
+
+
+.blogposts {
+    color:#88491c;
+}
+
+#cherrytable{
+    border: 2px solid red;
+}
+
+hr{
+    border:none;
+    height:5px;
+    background-color: #5B3E23;
+}
