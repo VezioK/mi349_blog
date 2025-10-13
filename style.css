@@ -104,8 +104,6 @@ li strong{
 }
 
 
-
-
 form {
     display: flex;
     flex-wrap: wrap;
@@ -117,18 +115,15 @@ form {
     border-radius: 10px;
 }
 
-/* Make each field take half width */
 form div {
     width: 48%;
 }
 
-/* Make comments and button span full width */
 #opencomment,
 form div:last-child {
     width: 100%;
 }
 
-/* Keep your existing input/button look */
 input, select {
     background-color: #F5E8C7;
     border: 2px solid #88491c;
