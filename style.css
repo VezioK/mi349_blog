@@ -75,8 +75,9 @@ h2{
 }
 
 .button{
-    border: 3px solid green;
-    background-color: orange;
+    color:#F5E8C7;
+    border: 3px solid #88491c;
+    background-color: #5B3E23;;
     margin: 5px;
     padding: 5px
 }
@@ -86,7 +87,7 @@ input{
 }
 
 label{
-    color:green;
+    color:#5B3E23;
 }
 
 #rules li::marker {
@@ -100,4 +101,38 @@ li strong{
 
 #rules{
     color:#88491c;
+}
+
+
+
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 700px;
+    background-color: #F5E8C7;
+    border: 2px solid #88491c;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Make each field take half width */
+form div {
+    width: 48%;
+}
+
+/* Make comments and button span full width */
+#opencomment,
+form div:last-child {
+    width: 100%;
+}
+
+/* Keep your existing input/button look */
+input, select {
+    background-color: #F5E8C7;
+    border: 2px solid #88491c;
+    color: #88491c;
+    margin-top: 5px;
+    padding: 5px;
 }
