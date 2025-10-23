@@ -129,3 +129,36 @@ input, select {
     margin-top: 5px;
     padding: 5px;
 }
+
+.container {
+  width: 90%;   
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.item {
+  flex: 1 1 300px; 
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    background-color: green;
+
+  }
+}
+
+@media (max-height: 768px) {
+  nav ul {
+    background-color: green;
+  }
+}
